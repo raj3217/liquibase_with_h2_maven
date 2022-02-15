@@ -1,0 +1,24 @@
+<databaseChangeLog 
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" 
+    xmlns:pro="http://www.liquibase.org/xml/ns/pro" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext 
+    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd 
+    http://www.liquibase.org/xml/ns/pro 
+    http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.0.xsd 
+    http://www.liquibase.org/xml/ns/dbchangelog 
+    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.0.xsd
+    ">
+    
+    
+<property name="table_name" value="Emp" />
+
+<!-- <preConditions onError="HALT" onErrorMessage="ERROR OCCURED" onFail="HALT" onFailMessage="Unauthorized access">
+	<dbms type="mysql"/>
+	<runningAs username="root"/>
+	<columnExists tableName="${table_name}" columnName="EmpId"/>
+	<rowCount expectedRows="0" tableName="${table_name}"/> 
+</preConditions> -->
+
+</databaseChangeLog>
